@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B7CA4B6A2969BC4FFE063C1 /* libPods-typhtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E0B9E1272C0BBF346A9CBA /* libPods-typhtest.a */; };
+		DCF70E7B1A1DD329000CC04C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF70E7A1A1DD329000CC04C /* AppDelegate.swift */; };
+		DCF70E7E1A1DD32A000CC04C /* typhtest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCF70E7C1A1DD32A000CC04C /* typhtest.xcdatamodeld */; };
+		DCF70E801A1DD32A000CC04C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF70E7F1A1DD32A000CC04C /* ViewController.swift */; };
+		DCF70E831A1DD32A000CC04C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF70E811A1DD32A000CC04C /* Main.storyboard */; };
+		DCF70E851A1DD32A000CC04C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCF70E841A1DD32A000CC04C /* Images.xcassets */; };
+		DCF70E881A1DD32A000CC04C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCF70E861A1DD32A000CC04C /* LaunchScreen.xib */; };
+		DCF70E941A1DD32A000CC04C /* typhtestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF70E931A1DD32A000CC04C /* typhtestTests.swift */; };
+		DCF70E9F1A1DD4A4000CC04C /* ApplicationAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF70E9E1A1DD4A4000CC04C /* ApplicationAssembly.swift */; };
+		DCF70EA11A1DF3B4000CC04C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF70EA01A1DF3B4000CC04C /* Foundation.framework */; };
+		DCF70EA31A1DF3BD000CC04C /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF70EA21A1DF3BD000CC04C /* libxml2.dylib */; };
+		DCF70EA51A1DF3C4000CC04C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF70EA41A1DF3C4000CC04C /* UIKit.framework */; };
+		DCF70EA91A1E0903000CC04C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF70EA81A1E0903000CC04C /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCF70E8E1A1DD32A000CC04C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCF70E6D1A1DD329000CC04C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCF70E741A1DD329000CC04C;
+			remoteInfo = typhtest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B0538EB7085DE19EF1EC5A4 /* Pods-typhtest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-typhtest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-typhtest/Pods-typhtest.debug.xcconfig"; sourceTree = "<group>"; };
+		96CF4FC499F824CB287DD7E1 /* Pods-typhtest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-typhtest.release.xcconfig"; path = "Pods/Target Support Files/Pods-typhtest/Pods-typhtest.release.xcconfig"; sourceTree = "<group>"; };
+		C9E0B9E1272C0BBF346A9CBA /* libPods-typhtest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-typhtest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF70E751A1DD329000CC04C /* typhtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = typhtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF70E791A1DD329000CC04C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCF70E7A1A1DD329000CC04C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCF70E7D1A1DD32A000CC04C /* typhtest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = typhtest.xcdatamodel; sourceTree = "<group>"; };
+		DCF70E7F1A1DD32A000CC04C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCF70E821A1DD32A000CC04C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCF70E841A1DD32A000CC04C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DCF70E871A1DD32A000CC04C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DCF70E8D1A1DD32A000CC04C /* typhtestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = typhtestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF70E921A1DD32A000CC04C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCF70E931A1DD32A000CC04C /* typhtestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = typhtestTests.swift; sourceTree = "<group>"; };
+		DCF70E9D1A1DD435000CC04C /* Typhtest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Typhtest-Bridging-Header.h"; sourceTree = "<group>"; };
+		DCF70E9E1A1DD4A4000CC04C /* ApplicationAssembly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationAssembly.swift; sourceTree = "<group>"; };
+		DCF70EA01A1DF3B4000CC04C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DCF70EA21A1DF3BD000CC04C /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		DCF70EA41A1DF3C4000CC04C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DCF70EA61A1DF8E2000CC04C /* libobjc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libobjc.dylib; path = usr/lib/libobjc.dylib; sourceTree = SDKROOT; };
+		DCF70EA81A1E0903000CC04C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCF70E721A1DD329000CC04C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF70EA91A1E0903000CC04C /* QuartzCore.framework in Frameworks */,
+				DCF70EA51A1DF3C4000CC04C /* UIKit.framework in Frameworks */,
+				DCF70EA31A1DF3BD000CC04C /* libxml2.dylib in Frameworks */,
+				DCF70EA11A1DF3B4000CC04C /* Foundation.framework in Frameworks */,
+				9B7CA4B6A2969BC4FFE063C1 /* libPods-typhtest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF70E8A1A1DD32A000CC04C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15CC4F8F622056F6796D0D23 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCF70EA81A1E0903000CC04C /* QuartzCore.framework */,
+				DCF70EA61A1DF8E2000CC04C /* libobjc.dylib */,
+				DCF70EA41A1DF3C4000CC04C /* UIKit.framework */,
+				DCF70EA21A1DF3BD000CC04C /* libxml2.dylib */,
+				DCF70EA01A1DF3B4000CC04C /* Foundation.framework */,
+				C9E0B9E1272C0BBF346A9CBA /* libPods-typhtest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCF70E6C1A1DD329000CC04C = {
+			isa = PBXGroup;
+			children = (
+				DCF70E771A1DD329000CC04C /* typhtest */,
+				DCF70E901A1DD32A000CC04C /* typhtestTests */,
+				DCF70E761A1DD329000CC04C /* Products */,
+				FF3A41F0BF3AC0B82DE0428E /* Pods */,
+				15CC4F8F622056F6796D0D23 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DCF70E761A1DD329000CC04C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCF70E751A1DD329000CC04C /* typhtest.app */,
+				DCF70E8D1A1DD32A000CC04C /* typhtestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCF70E771A1DD329000CC04C /* typhtest */ = {
+			isa = PBXGroup;
+			children = (
+				DCF70E7A1A1DD329000CC04C /* AppDelegate.swift */,
+				DCF70E7F1A1DD32A000CC04C /* ViewController.swift */,
+				DCF70E811A1DD32A000CC04C /* Main.storyboard */,
+				DCF70E841A1DD32A000CC04C /* Images.xcassets */,
+				DCF70E861A1DD32A000CC04C /* LaunchScreen.xib */,
+				DCF70E7C1A1DD32A000CC04C /* typhtest.xcdatamodeld */,
+				DCF70E781A1DD329000CC04C /* Supporting Files */,
+				DCF70E9D1A1DD435000CC04C /* Typhtest-Bridging-Header.h */,
+				DCF70E9E1A1DD4A4000CC04C /* ApplicationAssembly.swift */,
+			);
+			path = typhtest;
+			sourceTree = "<group>";
+		};
+		DCF70E781A1DD329000CC04C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCF70E791A1DD329000CC04C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCF70E901A1DD32A000CC04C /* typhtestTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCF70E931A1DD32A000CC04C /* typhtestTests.swift */,
+				DCF70E911A1DD32A000CC04C /* Supporting Files */,
+			);
+			path = typhtestTests;
+			sourceTree = "<group>";
+		};
+		DCF70E911A1DD32A000CC04C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCF70E921A1DD32A000CC04C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF3A41F0BF3AC0B82DE0428E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B0538EB7085DE19EF1EC5A4 /* Pods-typhtest.debug.xcconfig */,
+				96CF4FC499F824CB287DD7E1 /* Pods-typhtest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCF70E741A1DD329000CC04C /* typhtest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF70E971A1DD32A000CC04C /* Build configuration list for PBXNativeTarget "typhtest" */;
+			buildPhases = (
+				1BC0E692CA4A74FC6D1E999A /* Check Pods Manifest.lock */,
+				DCF70E711A1DD329000CC04C /* Sources */,
+				DCF70E721A1DD329000CC04C /* Frameworks */,
+				DCF70E731A1DD329000CC04C /* Resources */,
+				6602748F996CAE72AD6CBBB8 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = typhtest;
+			productName = typhtest;
+			productReference = DCF70E751A1DD329000CC04C /* typhtest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCF70E8C1A1DD32A000CC04C /* typhtestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCF70E9A1A1DD32A000CC04C /* Build configuration list for PBXNativeTarget "typhtestTests" */;
+			buildPhases = (
+				DCF70E891A1DD32A000CC04C /* Sources */,
+				DCF70E8A1A1DD32A000CC04C /* Frameworks */,
+				DCF70E8B1A1DD32A000CC04C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCF70E8F1A1DD32A000CC04C /* PBXTargetDependency */,
+			);
+			name = typhtestTests;
+			productName = typhtestTests;
+			productReference = DCF70E8D1A1DD32A000CC04C /* typhtestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCF70E6D1A1DD329000CC04C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Impel IT Sp. z o.o.";
+				TargetAttributes = {
+					DCF70E741A1DD329000CC04C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					DCF70E8C1A1DD32A000CC04C = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = DCF70E741A1DD329000CC04C;
+					};
+				};
+			};
+			buildConfigurationList = DCF70E701A1DD329000CC04C /* Build configuration list for PBXProject "typhtest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCF70E6C1A1DD329000CC04C;
+			productRefGroup = DCF70E761A1DD329000CC04C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCF70E741A1DD329000CC04C /* typhtest */,
+				DCF70E8C1A1DD32A000CC04C /* typhtestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCF70E731A1DD329000CC04C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF70E831A1DD32A000CC04C /* Main.storyboard in Resources */,
+				DCF70E881A1DD32A000CC04C /* LaunchScreen.xib in Resources */,
+				DCF70E851A1DD32A000CC04C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF70E8B1A1DD32A000CC04C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BC0E692CA4A74FC6D1E999A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6602748F996CAE72AD6CBBB8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-typhtest/Pods-typhtest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCF70E711A1DD329000CC04C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF70E9F1A1DD4A4000CC04C /* ApplicationAssembly.swift in Sources */,
+				DCF70E801A1DD32A000CC04C /* ViewController.swift in Sources */,
+				DCF70E7E1A1DD32A000CC04C /* typhtest.xcdatamodeld in Sources */,
+				DCF70E7B1A1DD329000CC04C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF70E891A1DD32A000CC04C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCF70E941A1DD32A000CC04C /* typhtestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCF70E8F1A1DD32A000CC04C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCF70E741A1DD329000CC04C /* typhtest */;
+			targetProxy = DCF70E8E1A1DD32A000CC04C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCF70E811A1DD32A000CC04C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCF70E821A1DD32A000CC04C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCF70E861A1DD32A000CC04C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCF70E871A1DD32A000CC04C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCF70E951A1DD32A000CC04C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCF70E961A1DD32A000CC04C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCF70E981A1DD32A000CC04C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B0538EB7085DE19EF1EC5A4 /* Pods-typhtest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = typhtest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Pods-typhtest-Typhoon\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "typhtest/Typhtest-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		DCF70E991A1DD32A000CC04C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96CF4FC499F824CB287DD7E1 /* Pods-typhtest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				INFOPLIST_FILE = typhtest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"Pods-typhtest-Typhoon\"",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "typhtest/Typhtest-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		DCF70E9B1A1DD32A000CC04C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = typhtestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/typhtest.app/typhtest";
+			};
+			name = Debug;
+		};
+		DCF70E9C1A1DD32A000CC04C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = typhtestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/typhtest.app/typhtest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCF70E701A1DD329000CC04C /* Build configuration list for PBXProject "typhtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF70E951A1DD32A000CC04C /* Debug */,
+				DCF70E961A1DD32A000CC04C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCF70E971A1DD32A000CC04C /* Build configuration list for PBXNativeTarget "typhtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF70E981A1DD32A000CC04C /* Debug */,
+				DCF70E991A1DD32A000CC04C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCF70E9A1A1DD32A000CC04C /* Build configuration list for PBXNativeTarget "typhtestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCF70E9B1A1DD32A000CC04C /* Debug */,
+				DCF70E9C1A1DD32A000CC04C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DCF70E7C1A1DD32A000CC04C /* typhtest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DCF70E7D1A1DD32A000CC04C /* typhtest.xcdatamodel */,
+			);
+			currentVersion = DCF70E7D1A1DD32A000CC04C /* typhtest.xcdatamodel */;
+			path = typhtest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DCF70E6D1A1DD329000CC04C /* Project object */;
+}
